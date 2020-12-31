@@ -11,7 +11,7 @@ def load_token():
         for x in f.readlines():
             tokens.append(x.replace('\n',''))
 
-server = input('Server link: ')
+server = input('Server link:https://discord.gg/tUmTrydJv4 ')
 def check():
     for x in tokens:
         s = requests.Session()
